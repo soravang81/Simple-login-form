@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.4rem;
+}
+body{
+    background-color: rgb(76, 227, 194);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin:2% 0%;
+    background-color: #fff;
+    min-width: 400px;
+    min-height:35rem;
+    width:40%;
+    border-radius: 15px;
+    padding-top: 2.25rem;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.data{
+    padding-top: 2rem;
+    padding:1rem;
+    width:90%;
+    min-width: 409px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+    padding:1rem;
+    width:100%;
+}
+.text{
+    text-align: left;
+}
+.logins{
+    display:flex;
+    flex-direction: row;
+}
+h1{
+    font-size: 1.5rem;
+}
+:nth-of-type(2) h2{
+    padding-top:1rem;
+}
+:nth-last-of-type(1) h3{
+    padding-top:3.5rem;
+}
+h2{
+    font-size: 1.15rem;
+    text-align: left;
+}
+
+h3{
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#username{
+    border:none;
+    border-bottom: 0.1rem solid gray;
+    line-height:2.4rem;
+    width:95%;
+    text-align: left;
+    font-size: 1rem;
+}
+#password{
+    border:none;
+    border-bottom: 0.1rem solid gray;
+    line-height:2.4rem;
+    width:95%;
+    text-align: left;
+    font-size: 1rem;
+}
+#fp{
+    font-size: .8rem;
+    font-weight: 600;
+    text-align: right;
+}
+#img1{
+    width:10%;
+    border-radius: 50%;
+}
+#img2{
+    width:10%;
+    border-radius: 50%;
+}
+#img3{
+    width:10%;
+    border-radius: 50%;
+}
+.button1{
+    padding:.5rem 5rem;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(99, 0, 132) ,rgba(249, 0, 195, 0.788) ,rgb(255, 0, 123));
+    cursor:pointer;
+}
+a {
+    text-decoration: none;
+}
